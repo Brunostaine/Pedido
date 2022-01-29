@@ -70,3 +70,19 @@ h2 {
     height: 100vh;
     background-size: cover;
 }
+
+@media screen and (min-width: 600px){
+    .msg {
+        width: 600px;
+        margin: 0 auto;
+    }
+    img {
+        width: 800px;
+
+    }
+
+    .link-voltar {
+        display: block;
+        top: 0;
+    }
+}
